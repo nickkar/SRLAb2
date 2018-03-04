@@ -9,8 +9,6 @@
 #define SORTING_H_
 
 /* C implementation QuickSort */
-#include<stdio.h>
-#include<stdlib.h>
 
 // A utility function to swap two elements
 void swap(int* a, int* b)

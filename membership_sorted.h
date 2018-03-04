@@ -8,11 +8,11 @@
 #ifndef MEMBERSHIP_SORTED_H_
 #define MEMBERSHIP_SORTED_H_
 
-int BinaryMember(int arr[], int key, int n){
+int BinaryMember(int arr[], int key){
 	int x, l, r;
 	l = 1;
-	r = n;//sizeof(arr)/sizeof(arr[0]);
-	printf("%d", key);
+	r = N;//sizeof(arr)/sizeof(arr[0]);
+
 	do
 	{
 		x = (l+r)/2;
@@ -21,7 +21,6 @@ int BinaryMember(int arr[], int key, int n){
 		else
 			l = x + 1;
 
-		printf("x=%d l=%d r=%d\n", x,l,r);
 	}while(!((key==arr[x])|| (l>r)));
 
 	if(key == arr[x])
