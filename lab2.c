@@ -3,6 +3,9 @@
 
 #define N 15
 
+//ante gamw
+
+
 int main(){
 
 	int arr[N];
